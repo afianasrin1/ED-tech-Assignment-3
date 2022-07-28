@@ -7,3 +7,6 @@ body {
 }
 
 /* Style start */
+.slider img {
+  height: 85vh;
+}
