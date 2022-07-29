@@ -56,8 +56,11 @@
                 <a class="nav-link me-4" href="#">Register </a>
               </li>
             </ul>
-          
-          
+           
+            <div class="text-center d-sm-none d-md-block d-lg-block my-3 pb-2">
+              <button type="button" class="btn btn-outline-info">Register </button>
+              </div>
+            
           </div>
         </div>
       </nav>
@@ -242,10 +245,19 @@
               </div> 
               
             </div>  
-            <div class="text-center d-md-block d-lg-block d-sm-none my-3 pb-2">
-              <button type="button" class="btn btn-info btn-lg">See More Courses</button>
-                         </div>
+            <div class="text-center d-lg-block d-sm-none d-md-none my-3 pb-2">
+              <button type="button" class="btn btn-info">See More Courses</button>
+              </div>
+               
+               <!-- view all button (tab & mobile) -->
+          <div class="view-container">
+            <div class="view-all-btn">
+            <a href="#">View All</a>
+          </div>
+        </div>    
          </section> 
+
+          
 
       
           <!-- Registation and Modal section start -->
@@ -261,9 +273,10 @@
             </div>
             <div class="col"> 
                 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary my-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Register Now
-</button>
+                <div class="text-center d-lg-block d-sm-none d-md-none my-3 pb-2">
+           <button type="button" class="btn btn-primary my-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                   Register Now
+               </button></div>
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -286,7 +299,14 @@
               
             </div>
           </div>
-        </div>
+        </div>  
+
+        <!-- Registration button (tab & mobile) -->
+        <div class="Registration-container">
+          <div class="Registration-btn">
+         <a href="#">Registration</a>
+                </div>
+                     </div>
        </section>
 
        <!-- optional/Successfull Student section start -->

@@ -21,3 +21,46 @@ body {
   background: rgb(45, 46, 46);
   opacity: 0.7;
 }
+.view-container,
+.Registration-container {
+  display: none;
+}
+
+@media only screen and (min-width: 669px) and (max-width: 992px) {
+  .view-container {
+    width: 80%;
+    margin: 0 auto;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .view-all-btn {
+    padding: 11px 30px;
+    background-color: rgb(73, 30, 227);
+    text-align: center;
+    border-radius: 7px;
+  }
+  .view-all-btn a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .Registration-container {
+    width: 80%;
+    margin: 0 auto;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Registration-btn {
+    padding: 11px 30px;
+    background-color: rgb(73, 30, 227);
+    text-align: center;
+    border-radius: 7px;
+  }
+  .Registration-btn a {
+    text-decoration: none;
+    color: #fff;
+  }
+}
